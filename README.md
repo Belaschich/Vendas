@@ -1,4 +1,4 @@
-# 📊 Retail Sales Analysis – Projeto de Portfólio
+# 📊 Retail Sales Analysis 
 
 ## 🎯 Objetivo do Projeto
 
