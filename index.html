@@ -1,10 +1,193 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <title>Portfólio - Bela Matos</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bela Matos | Analista de Dados</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+header {
+    padding: 40px 10%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00c6ff;
+}
+
+.hero {
+    padding: 120px 10%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero span {
+    color: #00c6ff;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #00c6ff;
+    border-radius: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.section {
+    padding: 80px 10%;
+}
+
+.section h2 {
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.skills {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 15px;
+    width: 180px;
+    text-align: center;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 30px;
+}
+
+.project-card {
+    background: rgba(255,255,255,0.1);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background: rgba(0,0,0,0.3);
+    margin-top: 60px;
+}
+</style>
 </head>
+
 <body>
-    <h1>Olá, eu sou Bela 👋</h1>
-    <p>Analista de Dados | Python | SQL | Power BI</p>
+
+<header>
+    <nav>
+        <h2>Bela Matos</h2>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Olá, eu sou <span>Bela Matos</span></h1>
+    <p>Analista de Dados focada em transformar dados em decisões estratégicas utilizando Python, SQL e Power BI.</p>
+    <a href="#projetos" class="btn">Ver Projetos</a>
+</section>
+
+<section class="section" id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Profissional em transição para área de Dados, com experiência prática em análise de vendas, criação de dashboards e modelagem de dados. Busco oportunidades como Analista de BI ou Engenheira de Dados Jr.</p>
+</section>
+
+<section class="section" id="skills">
+    <h2>Minhas Skills</h2>
+    <div class="skills">
+        <div class="skill-card">Python</div>
+        <div class="skill-card">SQL</div>
+        <div class="skill-card">Power BI</div>
+        <div class="skill-card">Pandas</div>
+        <div class="skill-card">MySQL</div>
+        <div class="skill-card">Excel</div>
+    </div>
+</section>
+
+<section class="section" id="projetos">
+    <h2>Projetos</h2>
+    <div class="projects">
+        <div class="project-card">
+            <h3>Análise de Vendas</h3>
+            <p>Projeto completo utilizando Python, tratamento de dados e visualizações estratégicas.</p>
+        </div>
+        <div class="project-card">
+            <h3>Dashboard Power BI</h3>
+            <p>Dashboard interativo com KPIs de faturamento, ticket médio e performance por categoria.</p>
+        </div>
+        <div class="project-card">
+            <h3>SQL - Análise Comercial</h3>
+            <p>Consultas SQL para análise de vendas, categorias e indicadores estratégicos.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="contato">
+    <h2>Contato</h2>
+    <p>Email: seuemail@email.com</p>
+    <p>GitHub: github.com/seuusuario</p>
+    <p>LinkedIn: linkedin.com/in/seuusuario</p>
+</section>
+
+<footer>
+    © 2026 Bela Matos - Todos os direitos reservados
+</footer>
+
 </body>
 </html>
